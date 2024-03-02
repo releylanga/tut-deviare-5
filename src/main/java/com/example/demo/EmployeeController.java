@@ -15,7 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class EmployeeController {
 	@Autowired
 	EmployeeDAO dao;
-Logger log=Logger.getAnonymousLogger();
+	Logger log=Logger.getAnonymousLogger();
 	@RequestMapping("/")
 	public ModelAndView displaydefaultpage(HttpServletRequest request,HttpServletResponse response)
 	{
@@ -40,8 +40,6 @@ Logger log=Logger.getAnonymousLogger();
 
 		return mv;
 	}
-
-
 
 	@RequestMapping("/getall")
 	public ModelAndView getall(HttpServletRequest request,HttpServletResponse response)
