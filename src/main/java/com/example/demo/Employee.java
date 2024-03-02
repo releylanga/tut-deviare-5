@@ -22,5 +22,31 @@ public class Employee {
 	private String empname;
 	private String empemail;
 	private int age;
+	public String getEmpname() {
+		return empname;
+	}
+	public void setEmpname(String empname) {
+		this.empname = empname;
+	}
+	public String getEmpemail() {
+		return empemail;
+	}
+	public void setEmpemail(String empemail) {
+		this.empemail = empemail;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public int getEmpno() {
+		return empno;
+	}
+	public void setEmpno(int empno) {
+		this.empno = empno;
+	}
+	
+	
 	
 }
